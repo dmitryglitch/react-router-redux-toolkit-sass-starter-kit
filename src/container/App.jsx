@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
+import React from "react";
 import ROUTES, { RenderRoutes } from "../routes";
 
 import gif from "../assets/starter-gif.gif";
@@ -18,7 +17,7 @@ const App = () => {
           <li>Redux, Redux-Thunk, Redux-ToolKit</li>
           <li>Sass</li>
         </ul>
-        <img src={gif} />
+        <img src={gif} alt="" />
       </div>
       <div className="news">
         <News />

@@ -22,7 +22,7 @@ class News extends Component {
             return <NewsItem key={i} newsData={news} />;
           })
         ) : (
-          <img className="news-preloader" src={preloader} />
+          <img className="news-preloader" src={preloader} alt="preloader" />
         )}
       </>
     );
