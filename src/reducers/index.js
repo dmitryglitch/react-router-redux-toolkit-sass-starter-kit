@@ -1,4 +1,4 @@
 import { combineReducers } from "@reduxjs/toolkit";
-import appReducer from "./appReducer";
+import newsReducer from "./newsReducer";
 
-export default combineReducers({ App: appReducer });
+export default combineReducers({ News: newsReducer });

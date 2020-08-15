@@ -1,0 +1,25 @@
+.news
+  display: flex
+  width: 500px
+  height: 480px
+  overflow: hidden
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  .news-preloader
+    width: 80px
+    height: 60px
+.news-item
+  height: 120px
+  margin: 10px
+  overflow: hidden
+  &__title
+    font-size: 26px;
+    margin-bottom: 10px
+    color: #ef4035
+  &__description
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: #e2a099
